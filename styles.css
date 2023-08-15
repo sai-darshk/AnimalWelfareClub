@@ -1,0 +1,106 @@
+/* Reset some default styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+    font-family: 'Fredoka One', sans-serif; /* Apply the font to all elements */
+}
+
+/* Basic styling for header */
+header {
+    text-align: center;
+    background-color: rgb(115, 117, 90);
+    padding: 50px 0; /* Increased padding on top and bottom */
+}
+
+.organization-name {
+    font-size: 24px;
+    color: white;
+    margin-bottom: 10px;
+    font-family: 'Fredoka One', sans-serif; /* Use the Fredoka font for the organization name */
+}
+
+.menu ul {
+    list-style: none;
+}
+
+.menu li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-family: 'Fredoka One', sans-serif; /* Use the Fredoka font for the menu */
+}
+
+/* Styling for the slideshow container */
+.slideshow {
+    position: relative;
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
+    height: 500px; /* Set the height of the slideshow */
+}
+
+.slide {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+.slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Styling for hero section text */
+.hero-content {
+    text-align: center;
+    color: black; /* Change text color to black */
+    padding: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+}
+
+/* Styling for other sections */
+.about, .events, .join, .contact {
+    text-align: center;
+    padding: 300px 0; /* Increased padding on top and bottom */
+    background-color: white;
+}
+
+/* Apply the RGB color (115, 117, 90) to the Events and Contact sections */
+.events, .contact {
+    background-color: rgb(115, 117, 90);
+    color: white;
+}
+
+/* Apply new colors to About Us and Join Us sections */
+.about, .join {
+    background-color: white;
+    color: rgb(115, 117, 90);
+}
+
+/* Adjust padding to move text to the top of the About Us section */
+.about h2, .about p {
+    margin-top: 0;
+}
+
+.photo-section img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Additional styling and media queries can be added here */
+
